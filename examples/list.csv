@@ -1,0 +1,4 @@
+username,group,email
+john,admin,john@example.com
+ali,read-only,ali@example.com
+mike,read-only,mike@example.com

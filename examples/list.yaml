@@ -1,0 +1,10 @@
+---
+- username: john
+  group: admin
+  email: john@example.com
+- username: ali
+  group: read-only
+  email: ali@example.com
+- username: mike
+  group: read-only
+  email: mike@example.com
