@@ -12,7 +12,8 @@ An example of Terraform file is contained in the [examples directory](./examples
 
 ```hcl
 module "cognito_config" {
-  source = "../../cognito"
+  source  = "ftcodelib/cognito-users/aws"
+  version = "0.2.0"
 
   aws_region  = "us-east-1"
   aws_profile = "aws-profile-example"
